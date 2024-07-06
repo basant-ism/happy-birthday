@@ -60,6 +60,8 @@
 
 body {
     background-color: #FFDAB9;
+    background-image: url("./img/nisha.jpeg");
+    background-position: center;
 }
 
 img {
@@ -75,13 +77,14 @@ img {
 
 .area {
     text-align: center;
-    font-size: 70px;
-    color: #C4515C;
+    font-size: 50px;
+    color: #c3a0a5;
     letter-spacing: -7px;
     font-weight: 700;
     text-transform: uppercase;
     animation: spin 2s ease-out infinite;
     text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+    margin-top: 150px;
 }
 
 #nae {
@@ -116,7 +119,8 @@ img {
 
 .type-wrap {
     font-size: 25px;
-    color: #C4515C;
+    color: #c3a0a5;
+    margin-top: 230px;
 
 }
 
@@ -125,5 +129,5 @@ img {
     transform: translateX(-50%);
     left: 50%;
     position: absolute;
-    padding-top: 250px;
+    padding-top: 320px;
 }
